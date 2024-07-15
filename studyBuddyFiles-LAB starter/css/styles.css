@@ -1,0 +1,94 @@
+
+/* COGS3 studyBuddy specific styles go here. */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+/* COGS3 studyBuddy specific styles go here. */
+.navbar-brand {
+    color: blue;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.container-fluid {
+    padding: 3% 10%;
+}
+h1 {
+    font-family: 'Quicksand', serif;
+    font-weight: bold;
+    font-size: 5rem;
+    line-height: 1.5;
+    color: rgb(43, 43, 43);
+    align-content: center;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.download-button {
+    margin: 0 3% 5% 0;
+}
+
+.title-image {
+    width: 60%;
+    transform: rotate(15deg);
+}
+
+#title {
+    background-color: #a3d6ff;
+}
+
+#features {
+    padding: 7% 15%;
+    font-family: 'Quicksand', serif;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8712;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #a3d6ff;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #009aaf;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+#press {
+    background-color: #009aaf;
+    text-align: center;
+}
+
+.press-logo {
+    width: 10%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    font-family: 'Quicksand', serif;
+}
