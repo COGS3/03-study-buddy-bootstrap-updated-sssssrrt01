@@ -7,7 +7,9 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
-
+*{
+    font-family: "Quicksand", serif;
+}
 .navbar-nav {
     margin-left: auto;
 }
@@ -37,8 +39,10 @@ p {
 }
 
 .title-image {
-    width: 60%;
+    width: 30%;
     transform: rotate(15deg);
+    z-index: 0;
+    position: absolute;
 }
 
 #title {
@@ -48,6 +52,9 @@ p {
 #features {
     padding: 7% 15%;
     font-family: 'Quicksand', serif;
+    background-color: #ffffff;
+    z-index: 2;
+    position: relative;
 }
 
 .feature-box {
@@ -56,7 +63,7 @@ p {
 }
 
 .icon {
-    color: #ef8712;
+    color: #ff0000;
     margin-bottom: 1rem;
 }
 
@@ -66,7 +73,7 @@ p {
 
 #testimonials {
     text-align: center;
-    background-color: #009aaf;
+    background-color: #9a8000;
 }
 
 .carousel-item {
@@ -80,7 +87,7 @@ p {
 }
 
 #press {
-    background-color: #009aaf;
+    background-color: #9a8000;
     text-align: center;
 }
 
@@ -91,4 +98,44 @@ p {
 
 .carousel-item {
     font-family: 'Quicksand', serif;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-header {
+    color:#000000;
+}
+
+.pricing-column {
+    padding: 5% 3%;
+}
+
+.card-price {
+    color:#000000;
+}
+
+@media {max-width: 900px} {
+    h1 {
+        font-size: 10rem;
+    }
+}
+
+@media {max-width: 1028px} {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+#cta {
+    background-color: #a3d6ff;
+    text-align: center;
+    padding-top: 4%;
 }
